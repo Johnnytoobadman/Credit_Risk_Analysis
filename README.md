@@ -59,9 +59,11 @@ Algorithm 1 - Naive Random Oversampling
 
 Accuracy Score for the model:
 
-![__](https://github.com/Johnnytoobadman/Credit_Risk_Analysis/blob/main/Images/12.png)
+![__](https://github.com/Johnnytoobadman/Credit_Risk_Analysis/blob/main/Images/11.png)
 
 Confusion Matrix:
+
+![__](https://github.com/Johnnytoobadman/Credit_Risk_Analysis/blob/main/Images/12.png)
 
 Imbalance Classification Report:
 
