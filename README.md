@@ -21,27 +21,27 @@
 
 ### collections
 
-### sklearn.model_selection   train_test_split
+### sklearn.model_selection:   train_test_split
 
-### imblearn.over_sampling    RandomOverSampler
+### imblearn.over_sampling:    RandomOverSampler
 
-### sklearn.linear_model    Logistic Regression
+### sklearn.linear_model :   Logistic Regression
 
-### sklearn.metrics   balanced_accuracy_score
+### sklearn.metrics :  balanced_accuracy_score
 
-### sklearn.metrics   confusion_matrix
+### sklearn.metrics  : confusion_matrix
 
-### lmblearn.metrics    classificiation_report_imbalanced
+### lmblearn.metrics  :  classificiation_report_imbalanced
 
-### imblearn.over_sampling    SMOTE
+### imblearn.over_sampling  : SMOTE
 
-### imblearn.under_sampling   ClusterCentroids
+### imblearn.under_sampling  : ClusterCentroids
 
-### imblearn.combine    SMOTEENN
+### imblearn.combine  :  SMOTEENN
 
-### imblearn.ensemble   BalancedRandomForestClassifier
+### imblearn.ensemble :  BalancedRandomForestClassifier
 
-### imblearn.ensemble   EasyEnsembleClassifier
+### imblearn.ensemble  : EasyEnsembleClassifier
 
 ## RESULTS
 
@@ -157,5 +157,14 @@ Imbalance Classification Report:
 
 ## SUMMARY
 
+### The balanced Accuracy method was best in the Easy Ensemble Adaboost Classifier with the best Accuracy score of .93. The Balanced Random Forest Classifier was second best with an Accuracy score of .79. All other algorithms used produced much lower accuracy scores all clustered around the .65 range.
+
+### The Recall Scores were also best in the Ensemble algorithms with Easy Ensemble Adaboost Classifier having the highest score of .94 (.91 high / .94 low).  Only the Naive Random Oversampling algorithm came this close and all other algorithms were much lower.
+
+### Both Oversampling algorithms (Naive Random Oversampling and SMOTE Oversampling) gave similar results on every metric except recall & F1.
+
+### Results for SMOTE, Cluster Centroids (undersampling algorithms) and SMOTEENN were similar.
+
+### For credit risk analysis the Ensemble Algorithm was the best performers with Easy Ensemble Adaboost Classifier providing clearly the best results.
 
 
